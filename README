@@ -1,0 +1,23 @@
+Akan-name
+Akan-names refers to the Ghananian system of naming children in reference with the day,month and year they are born.The project was created on 12/12/2020
+Author
+Ngenoh Zephenia
+
+Description of my Akan-name
+This project allows every other individual to enter their dates of birth and on submitting, a Ghananian name is prompted automatically.
+
+
+## project Set up Instructions
+* Ctrl + alt + t to open the terminal
+* now git clone https://github.com/ngenoh-zephenia/Akan-name.git
+* cd portfolio
+* you can use code . to open it.
+## Known Bugs
+## Technologies Used
+* HTML5
+* CSS
+* Github
+* Javascript
+## Support and contact details
+I would like to give credit to my Technical mentor Paul Gichuki for the guidance he gave me towards the development of this web
+### License

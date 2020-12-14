@@ -19,4 +19,3 @@ if (gender === "Male") {
  if (gender === "Female") {
     alert("Your Ghanian akan Name is " + akanFemaleNames[d] + " and you were born on " + dayOfTheWeek[d])
 }
-}
