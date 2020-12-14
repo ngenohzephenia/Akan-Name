@@ -1,11 +1,15 @@
+
 h1{
-    color: chartreuse;
-}
-h3{
     color: darkblue;
 }
 body{
-    text-decoration: darkgoldenrod;
     text-align: center;
 
+}
+.footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0%;
+    background-color: rosybrown;
 }

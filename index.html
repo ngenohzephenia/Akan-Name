@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatdevice-widthible" content="ie=edge">
-    <title>Akan Name</title>
-    <link rel="stylesheet" href="./css/bootstrap-4.0.0/index.html">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8" />
+<link rel="stylesheet" href="./css/bootstrap-4.0.0/scss/bootstrap.scss">
+  <link rel="stylesheet" href="./css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akan-names</title>
 </head>
-<div style="background-image: url('image-akan1.png');">
 <body>
-   <div class="container">
-       <h1>Akan Community Names</h1>
-       <div class="card">
-           <div class="card-body text-center"></div>
-           <p>The <strong>Akan community of Ghana</strong> has a unique name of naming their new born babies.<br>
-            They name according to the days of of the week in which they are born.<br>
-            Their <em>name are derived</em> from the day they were born.</p>
-            <p a href="https://en.wikipedia.org/wiki/Akan_names"></p>
-       </div>
-       <form>
-           <div class="form-group">
-               <label for="exampleFormControlInput1">Year</label>
-               <input type="number" class="form-control" id="year/>
-           </div>
-           <div class="form-group">
-               <label for="exampleFormControlInput1">Month</label>
-               <input type="number" class="form-control" id="month"required max="12" min="01"/>
-           </div>
-           <div class="form-group">
-               <label for="exampleFormControlInput1">Day</label>
-               <input type="number" class="form-control" id="day/>
-           </div>
-           <div class="form-group">
-               <label for="select gender">Gender</label>
-               <select class="form-control"id="gender"required>
-                   <option></option>
-                   <option value="male">Male</option>
-                   <option value="female">female</option>
-               </select>
-           </div>
-           <button onclick="getDay()"type="button" class="btn btn-success">
-            Submit
-           </button>
-       </form>
-   </div>
-   <h2 class="card-title">Footer</h2>
-<p class="card-text">2020@NGENOHZEPHENIA</p>
+  <div class="container">
+    <h1><strong>Akan Names</strong></h1>
+    <div class="card">
+      <img src="./image/akan1.png" class="card-img-top" width="200px"height="250px alt="...">
+      <div class="card-body">
+        <p class="card-text"><p>Akan people of Ghana name their children in accordance to the day of the
+          week they were born.<br> <em>Day names</em> is the first names given to this children of this Ghanian culture and it corresponds to the day of the week they were born.</p>
+       <strong>Fill the form below </strong>
+      <p>On clicking the submit button it automatically pops the respective Akan Name</p>
+      </div>
+      
+    </div>
+  <div class="card">
+    <form>
+     
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Day</label>
+        <input type="number" class="form-control" id="day"  required max="31" min="1" />
 
-   <script src="./css/script.js"></script>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Month</label>
+        <input type="number" class="form-control" id="month" required max="12" min="1" />
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Year</label>
+        <input type="number" class="form-control" id="year"/>
+      </div>
+      
+      </div>
+      <div class="form-group">
+        <label for="select gender">Gender</label>
+        <select class="form-control" id="gender" required>
+          <option></option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <button onclick="getDay() " type="button" class="btn btn-success">
+        Submit
+    </form>
+    </div>
+  </div>
+  <div class="footer">
+    <p>
+      <em>Ngenoh Zephenia</em> Copyright &copy; 2020 
+    </p>
+  </div>
+  <script src="./css/script.js"></script>
 </body>
-
 </html>
